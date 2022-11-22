@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cab New User Signup</title>
+    <link rel="stylesheet" href="statics/cabsignup.css" type="text/css"/>
+</head>
+<body>
+    <div class="top1">
+        <div class="top2">
+            <h2><a href="cabhome.html" style="text-decoration: none; color: black;">TAKSi</a></h2>
+        </div>
+        <div class="top3">
+            <div class="button" ><a  href="cabbook.html" style="text-decoration:none; ">Booking</a></div>
+            <div class="button" >Contact Us</div>
+            <div class="button"><a href="cabsignin.html " style="text-decoration:none; ">Sign In</a></div>   
+        </div>
+    </div>
+    <div class="box">
+        <div class="box1">
+            <form action="/signup" class="box2" name="regform" id="regform" method="post">
+                <p style="font-size: 36px; text-align: center;"><b>Sign UP</b></p>
+                <label for="fullname"  ><b>Fullname</b></label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter Firstname" required><br/>
+                <label for="mobile_no"><b>Mobile No. </b></label><br/>
+                    <input type="text" placeholder="Enter mobileno" name="mobile_no" required><br/>
+                <label for="email"><b>Email id </b></label><br/>
+                    <input type="text" placeholder="Enter email id"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" name="email" id="email"><br/>
+                <label for="Password" > <b>New Password</b></label><br>
+                    <input type="password" id="Password" name="Password" placeholder="Password" minlength="8" maxlength="25" class="psw"><br/>
+                <label for="cpassword" > <b>Confirm Password:</b></label><br>
+                    <input type="password" id="cpassword" name="cpassword" placeholder="Password" class="psw"><br/>
+                    <p id="err" style="color:red; font-size: 20px;" ></p>
+                    <input type="checkbox" id="agree" name="agree" value="1" required><b style="font-size: 20px;">I agree to the terms and conditions</b>
+                <button type="submit" class="btn" id="btn-login" style="margin-left:50px ;" name="btnsubmit"><b>Sign Up</b></button>
+            </form> 
+        </div>
+    </div>
+
+<script>
+    
+  </script>
+</body>
+</html>

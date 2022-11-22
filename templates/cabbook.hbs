@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cab Booking</title>
+    <link rel="stylesheet" href="statics/cabbook.css" type="text/css">
+</head>
+<body>
+    <div class="top1">
+        <div class="top2">
+            <h2><a href="cabhome.html" style="text-decoration: none; color: black;">TAKSi</a></h2>
+        </div>
+        <div class="top3">
+            <!-- <button type="submit" class="button2" href="cabsignin.html">sder</button> -->
+            <div class="button" ><a  href="cabbook.html" style="text-decoration:none; ">Booking</a></div>
+            <div class="button">Contact Us</div>
+            <div class="button"><a  href="cabsignin.html " style="text-decoration:none; ">Sign In</a></div>   
+        </div>
+    </div>  
+    <div class="box">
+        <div class="box1">
+            <form method="post" action="" class="box2" >
+                <p style="font-size: 36px; text-align: center;"><b>Book Your Trip</b></p>
+                <label for="pickup"  ><b>Pick up</b></label><br>
+                    <input type="text" id="pickup" name="pickup" placeholder="pickup" ><br/>
+                <label for="destination" > <b>Destination</b></label><br>
+                    <input type="text" id="destination" name="destination" placeholder="destination"><br/>
+                <label for="dot"><b>Date Of Travel </b></label>
+                    <input type="date" id="dot" name="dot" placeholder="Enter Date of Travel" style="height:30px; width: 380px; padding:10px; background-color: #f1f1f1; border: none; border-radius: 10px;"/>
+                <label for="passenger"><b>No. Of Passenger</b></label><br/>
+                    <input type="text" id="passenger" name="passenger" placeholder="passenger"><br/>
+                <label for="mobile"><b>Mobile No. </b></label><br/>
+                    <input type="text" placeholder="Enter mobileno" name="mobile" ><br/>
+                    <input type="checkbox" id="agree" name="agree" value="1" style="width: 15px; height: 15px;"><b style="font-size: 20px;">Send OTP</b>
+                <button type="submit" class="btn" style="margin-left:50px ;"><b>Book Cab</b></button>
+            </form> 
+        </div>
+    </div>  
+</body>
+</html>

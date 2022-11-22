@@ -1,0 +1,131 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+.top1{
+    width:1508px;
+    height:10vh;
+    margin: 0px;
+    font-size:30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:10px;
+    background-color: rgb(255, 242, 0);
+}
+.top2{
+    width:60vw;
+    height:10vh;
+    color:black;
+    font-family: fantasy;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    padding:0 0 0 50px;
+    position:absolute ; left:-20px; 
+}
+.top3{
+    width:30vw;
+    height:10vh;
+    position:absolute ; right:10px;
+    font-size:26px;
+    font-family: fantasy;
+    color:black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.button{
+    width:9vw;
+    height:5vh;
+    border-radius: 1cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button a{
+    color: black;
+}
+
+.button:hover{
+    background-color: rgb(66, 64, 64) ;
+    color:  rgb(255, 242, 0);
+    cursor: pointer;
+}
+.button a:hover{
+    background-color: rgb(66, 64, 64) ;
+    color:  rgb(255, 242, 0);
+    cursor: pointer;
+}
+.box{
+    width: 1500px;
+    height: 1000px;
+    margin-top: 10px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    
+}
+
+.box1{
+    width: 500px;
+    height: 1000px;
+    margin-top: 10px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box2{
+    font-size:x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    height:980px;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding:0px 30px 0px;
+    line-height:40px ;
+  
+    /*trbl*/
+    
+}
+input[type=text]{
+    width:380px; 
+    border-radius:10px;
+    height: 30px; 
+    border: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+.psw{
+    width:380px; 
+    border-radius:10px;
+    height: 30px; 
+    border: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+.btn{
+    background-color: black;
+    font-size: 24px;
+    width:300px;
+    color:white;
+    border-radius: 10px;
+    padding:12px;
+    margin:30px 0px 10px 0;
+    opacity: 1;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(255, 242, 0);
+    color: black;
+    opacity: .8;
+}
